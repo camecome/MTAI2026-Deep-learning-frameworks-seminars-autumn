@@ -1,0 +1,25 @@
+[project]
+name = "mtai2026-deep-learning-frameworks-seminars-autumn"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "torch (>=2.14.1,<3.0.0)",
+    "torchvision (>=0.29.1,<0.30.0)",
+    "torchviz (>=0.0.3,<0.0.4)",
+    "lightning (>=2.6.6,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.4.0,<8.0.0)"
+]
